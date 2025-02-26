@@ -30,7 +30,9 @@ export default function Home() {
           <CardContent>
             <HtmlContent html={item.content} />
           </CardContent>
-          <CardFooter>{formatUnixTimestamp(item.datetime)}</CardFooter>
+          <CardFooter className='rtl'>
+            {formatUnixTimestamp(item.datetime)}
+          </CardFooter>
         </Card>
       ))}
 
