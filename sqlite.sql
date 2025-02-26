@@ -1,0 +1,1 @@
+INSERT INTO "users_table"("id", "content", "datetime") VALUES(1, 'Sample content', '2025-02-26 00:45:00');
